@@ -20,6 +20,7 @@ body {
   box-sizing: border-box;
   max-width: 100vw;
   max-height: 100vh;
+  background: #1E1E1E
 }
 
 .App {

@@ -13,7 +13,8 @@ const data = [
         time: "2 months ago",
         amount1: "1.82",
         amount2: "+200XP",
-        color:  '#4BDFFF'
+        color:  '#4BDFFF',
+        bgColor: "rgba(37, 181, 213, 0.1)"
     },
     {
         title: "Best Flip",
@@ -23,7 +24,8 @@ const data = [
         time: "10 days ago",
         amount1: "98.5",
         amount2: "+150XP",
-        color: "#FFC148"
+        color: "#FFC148",
+        bgColor:  "rgba(248, 169, 16, 0.1)"
     },
     {
         title: "Should have sold",
@@ -33,7 +35,8 @@ const data = [
         time: "10 days ago",
         amount1: "98.5",
         amount2: "+200XP",
-        color: "#44FFC8"
+        color: "#44FFC8",
+        bgColor: "rgba(11, 241, 173, 0.1)"
     },
     {
         title: "First NFT bought",
@@ -43,7 +46,8 @@ const data = [
         time: "10 days ago",
         amount1: "98.5",
         amount2: "+10XP",
-        color: "#4BDFFF"
+        color: "#4BDFFF",
+        bgColor: "rgba(37, 181, 213, 0.1)"
     },
     {
         title: "Paper Handed",
@@ -53,7 +57,8 @@ const data = [
         time: "10 days ago",
         amount1: "98.5",
         amount2: "+200XP",
-        color: "#44FFC8"
+        color: "#44FFC8",
+        bgColor: "rgba(11, 241, 173, 0.1)"
     }
 ];
 

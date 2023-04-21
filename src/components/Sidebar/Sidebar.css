@@ -14,10 +14,35 @@
     display: flex;
     align-items: center;
     gap: 0.78vw;
+   
+}
+
+
+
+.profile .img-box {
+ border-top: 3.5px solid var(--highlight);
+ border-bottom: 3.5px solid var(--bg-dp);
+ border-right: 3.5px solid var(--bg-dp);
+ border-left: 3.5px solid var(--highlight);
+ border-radius: 50%;
+ padding: 2px;
+ width: 4.8vw;
+ height: 4.8vw;
+ margin-bottom: 4px;
+ transition: 1s;
+}
+.profile .img-box:hover {
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+.profile .img-box:hover img {
+    transform: rotate(-90deg);
 }
 .image-area img {
     width: 4.8vw;
     height: 4.8vw;
+    object-fit: cover;
+    transition: 1s;
 }
 .image-area .img-text {
     color: var(--highlight);
@@ -95,6 +120,12 @@
     width: 3.125vw;
     height: 48px;
     display: flex;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.commImages img:hover {
+    transform: scale(1.1)
 }
 
 .chips {

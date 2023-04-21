@@ -1,11 +1,12 @@
 import React from 'react'
 import Shape from './images/Shape.png'
-
+// style={{backgroundImage: `radial-gradient( circle at top left,${color} ,  #111111 )`}}
 const Card = (props) => {
-  const {title, subtitle, image, info, time, amount1, amount2, color} = props;
+  const {title, subtitle, image, info, time, amount1, amount2, color, bgColor} = props;
   console.log(color)
   return (
-    <div className='top-card'>
+    <div  className='top-card'>
+      <div style={{background: `${props.bgColor}`}} className="bg-grad"></div>
       <div className="overview">
         <img src={image}  />
         <div className="right">

@@ -17,6 +17,7 @@ const TopRow = () => {
         amount1= {card.amount1}
         amount2= {card.amount2}
         color = {card.color}
+        bgColor = {card.bgColor}
         />
       ))
     }
