@@ -1,0 +1,73 @@
+.bottom-row {
+    display: flex;
+    gap: 1.06vw;
+}
+
+.bottom-card {
+    width:12.9vw;
+    height: 305px;
+    background-color: var(--bg-primary);
+    border-radius: 8px;
+    padding: 4px 4px 8px 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-img{
+    position: relative;
+}
+
+.timeline {
+    color: white;
+    font-size: var(--small);
+    line-height: 20px;
+    font-weight: 500;
+    background-color: #00000080;
+    padding: 1px 6px;
+    width: fit-content;
+    border-radius: 2.018vw;
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+}
+
+.card-content {
+    padding: 4px 4px 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card-content .info {
+    color: var(--primary);
+    font-size: var(--normal);
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.bought, .floor {
+    color: var(--secondary);
+    font-size: var(--small);
+    font-weight: 500;
+    line-height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.floor .stats {
+    display: flex;
+    gap: 4px;
+}
+.num-area span {
+    color: var(--primary);
+    font-size: var(--small);
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.floor .percent {
+    color: var(--num);
+}
+
+

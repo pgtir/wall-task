@@ -1,0 +1,85 @@
+.top-row {
+    display: flex;
+    gap: 1.06vw;
+}
+
+.top-card {
+    width:12.09vw;
+    height: 148px;
+    background-color: var(--bg-primary);
+    border-radius: 16px;
+    margin-bottom: 60px;
+    padding: 10px 0.651vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.overview {
+    display: flex;
+    gap: 0.781vw;
+}
+
+.overview img {
+    height: 52px;
+    width: 3.385vw;
+}
+.overview .right {
+    display: flex;
+    flex-direction: column;
+    gap: 0.521vw;
+
+}
+
+.overview .title {
+    color: var(--primary);
+    font-size: var(--normal);
+    font-weight: 500;
+    line-height: 20px;
+}
+.overview .subtitle {
+    color: var(--primary);
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 8px;
+}
+.amount-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.521vw;
+}
+
+.amount-info .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.amount-info .amt1 {
+    color: var(--primary);
+    font-size: var(--small);
+    font-weight: 500;
+    line-height: 20px;
+}
+ .num-area {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.amount-info img {
+    width: 7.4px;
+    height: 12px;
+}
+.amount-info .username {
+    font-weight: 500;
+}
+.amount-info .time {
+    color: var(--secondary);
+    font-size: var(--small);
+    line-height: 20px;
+}
+
+.amount-info .amt2 {
+    color: var(--num);
+    font-size: var(--small);
+    line-height: 20px;
+}
