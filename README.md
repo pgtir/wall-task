@@ -1,6 +1,4 @@
 
-# Deployed at  :
-https://wall-task.onrender.com
+Deployed at : https://wall-task.onrender.com
+Tech Stack Used : ReactJS and CSS
 
-# Tech Stack Used :
-ReactJS and CSS
